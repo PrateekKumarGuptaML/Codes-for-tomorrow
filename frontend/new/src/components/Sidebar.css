@@ -1,0 +1,73 @@
+.sidebar_container{
+  color: #1e1e1e;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.sidebar_container .section{
+  padding: 1rem 1.8rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+    min-width: 300px;
+}
+
+.sidebar_container .section h2{
+  font-size: 1.7rem;
+}
+
+.sidebar_container .profile{
+  padding: .5rem 1.5rem;
+    display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+}
+
+.sidebar_container .profile figure img{
+  border-radius: 50%;
+  background-color: rgb(175, 175, 175);
+}
+
+.sidebar_container .toggle{
+    padding: 1rem 2rem;
+}
+
+.sidebar_container .toggle .buttons{
+  margin-top: 20px;
+  display: flex;
+
+}
+
+.sidebar_container .toggle .buttons button{
+  padding: .2rem;
+  width: 100%;
+    outline: none;
+  border: none;
+  font-size: 50px;
+
+}
+
+.sidebar_container .toggle .buttons .first_btn{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sidebar_container .toggle .buttons .second_btn{
+  background-color: rgb(68, 255, 171);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sidebar_container .feedback button{
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  border: none;
+   background-color: rgb(68, 255, 171);
+   font-size: 18px;
+   font-weight: 700;
+}

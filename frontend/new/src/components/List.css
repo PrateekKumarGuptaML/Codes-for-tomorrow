@@ -1,0 +1,41 @@
+.list_container{
+  display: flex;
+  margin: 2rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_container .card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1.5rem 1rem;
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+.list_container .card section p{
+  margin-top: .8rem;
+}
+
+.list_container .card img{
+  height: 70px;
+    border-radius: 50%;
+  background-color: rgb(175, 175, 175);
+}
+
+.list_container .card section .date{
+  color: #8e8e8e;
+  font-weight: 600;
+}
+
+
+.list_container button{
+  font-size: 30px;
+  border-radius: 50%;
+  border: 1px solid white ;
+  background-color: white;
+  padding: 1rem;
+}
